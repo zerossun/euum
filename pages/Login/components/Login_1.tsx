@@ -1,7 +1,6 @@
 import type {NextPage} from "next";
-import Link from "next/link";
 
-const FirstLogin: NextPage = () => {
+const Login_1: NextPage = () => {
   return (
     <>
       <h1>Login_1</h1>
@@ -10,4 +9,4 @@ const FirstLogin: NextPage = () => {
   );
 };
 
-export default FirstLogin;
+export default Login_1;
