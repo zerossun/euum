@@ -3,7 +3,7 @@ import React from "react";
 import {useRouter} from "next/router";
 
 export type head = {
-  title: string;
+  title?: string;
 };
 
 const Header: React.FC<head> = ({title}) => {
