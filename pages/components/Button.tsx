@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import {buttonSize, buttonType} from "../components/ButtonStyle";
 
 type ButtonStyleProps = {
-  state: "normal";
+  state: "normal" | "disabled";
   size: "small" | "medium" | "large";
   colorType: "black" | "white" | "brown";
 };
